@@ -7,12 +7,12 @@ The firmware is [keyberon](https://github.com/TeXitoi/keyberon).
 ![arisu handwire](https://i.imgur.com/03L5ocp.jpg)
 
 ## Install the rust toolchain
-`
+```
 curl https://sh.rustup.rs -sSf | sh
 rustup target add thumbv7em-none-eabihf
 rustup component add llvm-tools-preview
 cargo install cargo-binutils
-`
+```
 
 
 ## Compiling
